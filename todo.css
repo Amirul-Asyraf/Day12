@@ -18,6 +18,10 @@ html, body {
     border-radius: 20px;
 }
 
+#container::-webkit-scrollbar {
+    display: none;
+}
+
 .title {
     text-align: center;
     margin-top: 20px;
