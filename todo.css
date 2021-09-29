@@ -1,0 +1,79 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+html, body {
+    font-family: sans-serif;
+}
+
+#container {
+    width: 375px;
+    height: 812px;
+    margin: 0 auto;
+    border: 1px solid black;
+    overflow: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    background-color: #082032;
+    /* background: linear-gradient(to bottom, #082032 0%, #003366 100%); */
+    color: #F0A500;
+    border-radius: 20px;
+}
+
+.title {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+#list-holder {
+    margin-bottom: 40px;
+}
+
+#input-holder h1, #list-holder h1, #complete-holder h1 {
+    margin-left: 20px;
+}
+
+.list-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.list-row h2 {
+    margin-left: 20px;
+    width: 260px;
+    max-width: 260px;
+}
+
+#task-input {
+    padding: 8px 20px;
+    margin-left: 15%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: #082032;
+}
+
+.add-btn {
+    background-color: #F0A500;
+    color: #082032;
+    border: none;
+    padding: 10px 20px;
+}
+
+.line-bar {
+    width: 90%;
+    height: 1px;
+    background-color: #334756;
+    margin: 10px auto;
+}
+
+.tick-box {
+    margin-left: 30px;
+}
+
+.delete-btn {
+    padding: 5px;
+    border-radius: 50%;
+    border: none;
+    color: red;
+}
